@@ -3,7 +3,7 @@ import update from 'immutability-helper'
 const LaneHelper = {
   initialiseLanes: (state, {lanes}) => {
     const newLanes = lanes.map(lane => {
-      lane.currentPage = 1
+      lane.currentPage = lane.currentPage || 1
       lane.cards && lane.cards.forEach(c => (c.laneId = lane.id))
       return lane
     })

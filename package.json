@@ -1,6 +1,6 @@
 {
-  "name": "react-trello",
-  "version": "2.4.1",
+  "name": "react-trello-apollo",
+  "version": "2.4.2",
   "description": "Pluggable components to add a trello like kanban board to your application",
   "main": "dist/index.js",
   "files": [
@@ -23,19 +23,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rcdexta/react-trello"
+    "url": "https://github.com/Apollosania/react-trello"
   },
   "keywords": [
     "react",
     "trello",
     "board"
   ],
-  "author": "RC, Prakash",
-  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rcdexta/react-trello/issues"
+    "url": "https://github.com/Apollosania/react-trello/issues"
   },
-  "homepage": "https://github.com/rcdexta/react-trello",
+  "homepage": "https://github.com/Apollosania/react-trello",
   "dependencies": {
     "autosize": "^4.0.2",
     "classnames": "^2.2.6",
